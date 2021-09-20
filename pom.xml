@@ -30,6 +30,11 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-maven-plugin</artifactId>
+            <version>4.4.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -142,7 +147,7 @@
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>4.0.0</version>
+                <version>4.4.1</version>
             </plugin>
         </plugins>
     </build>
@@ -157,7 +162,7 @@
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>4.1.3</version>
+                <version>4.4.1</version>
             </plugin>
         </plugins>
     </reporting>
